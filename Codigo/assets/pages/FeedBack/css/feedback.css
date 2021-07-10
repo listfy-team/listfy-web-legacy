@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    min-height: 50vh;
+    align-items: flex-start;
+    justify-content: center;
+}
+p{
+    font-size: 1.5rem;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.feedback_area{
+    border: 2px solid black;
+    border-radius: 16px;
+    margin-right: 1rem;
+}
+.conteudo_feedback{
+    display: table;
+    margin-top: 2rem;
+}
+.texto_feedback{
+    display: table-cell;
+    float: left;
+    margin-right: 7px;
+}
+.img_user{
+    font-size: 50px;
+    cursor: pointer;
+}
+.form-feedback{
+    color: black;
+    font-size: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    border: 1px solid black;
+    background: #4e78f4;
+    border-radius: 16px;
+    width: 350px;
+    margin-right: 50rem;
+    margin-left: 43rem;
+    transition: all .3s ease-in-out;
+}
+
+.form-feedback:hover{
+    color: white;
+}
+.nome-feedback{
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    padding: 1rem;
+    padding-top: 0.5rem;
+}
+
+
+h1{
+    text-align: center;
+}
+@media (max-width: 1700px){
+    .form-feedback{
+        margin-left: 34rem;
+    }
+}
+@media (max-width: 1543px){
+    .form-feedback{
+        margin-left: 30rem;
+    }
+}
+@media (max-width: 1460px){
+    .form-feedback{
+        margin-left: 28rem;
+    }
+}
+@media (max-width: 1350px){
+    .form-feedback{
+        margin-left: 24rem;
+    }
+}
+@media (max-width: 1200px){
+    .form-feedback{
+        margin-left: 20rem;
+    }
+}
+@media only screen and (max-width: 1100px){
+    p{
+        font-size: smaller;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .img_user{
+        font-size: 40px;
+    }
+    .nome-feedback{
+        margin-top: 0rem;
+    }
+    .form-feedback{
+        margin-left: 17rem;
+    }
+}
+@media (max-width: 1000px){
+    .form-feedback{
+        margin-left: 14rem;
+    }
+}
+@media only screen and (max-width: 900px){
+    p{
+        font-size: 1rem;
+    }
+    .form-feedback{
+        margin-left: 11rem;
+    }
+}
+@media (max-width: 777px){
+    .form-feedback{
+        margin-left: 6rem;
+    }
+}
+@media (max-width: 550px){
+    .form-feedback{
+        margin-left: 4rem;
+    }
+}
+@media (max-width: 440px){
+    .form-feedback{
+        margin-left: 2rem;
+        font-size: 0.9rem;
+        width: 300px;
+    }
+    .feedback_area{
+        margin-right: 0rem;
+    }
+}
+@media (max-width: 380px){
+    .form-feedback{
+        width: 280px;
+        margin-left: 1rem;
+    }
+}
+@media only screen and (max-width: 330px){
+    .form-feedback{
+        margin: auto;
+        height: 50px;
+    }
+    .nome-feedback{
+        margin-top: 2rem;
+    }
+    .img_user{
+        margin-left: 1rem;
+    }
+}

@@ -1,0 +1,214 @@
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    min-height: 50vh;
+}
+main form{
+    display: flex;
+    flex-direction: column;
+}
+main form label{
+    margin-top: 1rem;
+}
+main form input{
+    background: transparent;
+    width: 300px;
+    padding: 0 0.5rem;
+    outline: none;
+    font-size: 1.3rem;
+}
+.btn-log-out{
+    display: flex;
+    background: #c4c1c1;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+}
+.icon-log-out{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.3rem;
+}
+.btn-delete-account{
+    display: flex;
+    background: tomato;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+.icon-delete-account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+.btn-exportar-dados{
+    background-color: #c4c1c1;
+    display: flex;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    padding: auto;
+}
+.btn-config-dados{
+    background-color: #c4c1c1;
+    display: flex;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    padding: auto;
+}
+.icon-config-dados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+.icon-exportar-dados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+.edit{
+    cursor: pointer;
+}
+
+.img_user{
+    font-size: 40px;
+}
+.configconta_area{
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 2rem;
+    margin: none !important;
+}
+
+
+@media only screen and (max-width: 900px){
+    
+    h1{
+        font-size: 2rem;
+    }
+    main form label{
+        font-size: 1.5rem;
+    }
+    main form input{
+        font-size: 1.5rem;
+    }
+    
+    main form input:last-child{
+        font-size: 1.5rem;
+    }
+    .img_user{
+        font-size: 50px;
+    }
+    .btn-delete-account{
+        width: 220px;
+    }
+    .icon-delete-account{
+        font-size: 1.9rem;
+    }
+    .icon-delete-account{
+        font-size: 1.5rem;
+    }
+    .btn-delete-account{
+        width: 200px;
+    }
+    .btn-config-dados{
+        width: 200px;
+    }
+    .btn-exportar-dados{
+        width: 280px;
+    }
+    
+}
+@media only screen and (max-width: 641px){
+    .configconta_area{
+        margin: none !important;
+        width: 280px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    main form label{
+        font-size: 1rem;
+    }
+    main form input{
+        font-size: 1rem;
+    }
+    main form input:last-child{
+        font-size: 1rem;
+    }
+    .img_user{
+        font-size: 35px;
+    }
+    .icon-delete-account{
+        font-size: 1rem;
+    }
+    .btn-delete-account{
+        width: 150px;
+    }
+    .btn-config-dados{
+        width: 150px;
+    }
+    .btn-exportar-dados{
+        width: 200px;
+    }
+    
+    
+}
+@media only screen and (max-width: 450px){
+    .configconta_area{
+        padding: 1rem;
+        margin-left: 1rem;
+        margin-right: 4rem;
+    }
+    h1{
+        font-size: 1rem;
+    }
+    main form label{
+        font-size: 1rem;
+    }
+    main form input{
+        font-size: 1rem;
+    }
+    main form input:last-child{
+        font-size: 1rem;
+    }
+    .img_user{
+        font-size: 35px;
+    }
+    
+}
+@media only screen and (max-width: 430px){
+    .configconta_area{
+        margin-left: -0.5rem;
+    }
+    
+}
+@media only screen and (max-width: 330px){
+    .configconta_area{
+        margin-right: 0rem;
+    }
+    
+}
+
+
+
+
+

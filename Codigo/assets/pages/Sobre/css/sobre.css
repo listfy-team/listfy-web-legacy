@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.sobre_area{
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 1.6rem;
+}
+.img-sobre{
+    width: 590px;
+    height: 180px;
+    margin: 0 auto;
+}
+.text-sobre{
+    font-size: 1rem;
+}
+.icon-languages{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+@media (max-width: 1410px){
+    .img-sobre{
+        width: 400px;
+        height: 120px;
+    }
+}
+@media (max-width: 1050px){
+    .img-sobre{
+        width: 300px;
+        height: 90px;
+    }
+}
+@media (max-width: 850px){
+    .img-sobre{
+        width: 230px;
+        height: 70px;
+    }
+}
+@media (max-width: 574px){
+    .img-sobre{
+        width: 400px;
+        height: 120px;
+    }
+}
+@media (max-width: 470px){
+    .img-sobre{
+        width: 300px;
+        height: 100px;
+    }
+}
+@media (max-width: 370px){
+    .img-sobre{
+        width: 230px;
+        height: 70px;
+    }
+}
+@media (max-width: 300px){
+    .img-sobre{
+        width: 170px;
+        height: 50px;
+    }
+}
+@media (max-width: 240px){
+    .img-sobre{
+        width: 100px;
+        height: 30px;
+    }
+}
+
+
+
+
+
